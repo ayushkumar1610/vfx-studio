@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
 
   constructor(private firestore: FirestoreService, private monster: MonsterComponent) {}
 
-  ngOnInit(): void {this.isDarkEnable=true}
+  ngOnInit(): void {sessionStorage.setItem("vfx_theme",'t')}
 
   navs = navs;
   details = details;
