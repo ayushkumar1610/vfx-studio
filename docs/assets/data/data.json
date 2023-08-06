@@ -1,11 +1,11 @@
 {
   "main": {
     "name": "VenomFX Studio",
-    "shortDesc": "We focus on developing awessome VFX that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "shortDesc": "Where cinematic magic is born through expert Roto artistry and Green Screen Removal. Step into a world of visual enchantment, where imagination meets reality, frame by frame. India's finest destination for captivating storytelling on the big screen.",
     "titles": [
       "Roto Animation",
       "Animation",
-      "Green Removal"
+      "Green Screen Removal"
     ],
     "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
     "techStackImages": [
@@ -16,10 +16,10 @@
     ]
   },
   "about": {
-    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImage": "../../../assets/images/wepik-export-202308060947368Aw1.png",
     "aboutImageCaption": "< We are Roto artist 🚀/>",
     "title": "Roto Artist",
-    "about": "We focus on developing awessome VFX that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "about": "Welcome to VenomFX Studio, the mesmerizing India-based powerhouse specializing in Roto artistry and Green Screen Removal. Our talented team of artists flawlessly dissects frames, liberating characters and crafting breathtaking cinematic moments. With cutting-edge technology and an unwavering dedication to precision, we transform visions into visual enchantment, blurring the line between reality and imagination. From epic action sequences to awe-inspiring environments, VenomFX Studio creates unforgettable experiences, one frame at a time. Join us on this extraordinary journey where your dreams come alive in the world of cinematic magic.",
     "callUrl": "number",
     "resumeUrl": "url"
   },
@@ -62,23 +62,12 @@
       "category": "Tools"
     }
   ],
-  "projects": [
+  "Services": [
     {
-      "name": "Project MERN",
-      "techstack": "HTML5, CSS3, JavaScript, jQuery",
-      "category": "MERN Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "dc",
-        "video": "adc",
-        "visit": "d"
-      }
-    },
-    {
-      "name": "Project FLUTTER",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "VFX Roto",
+      "techstack": "Roto",
+      "category": "VFX Roto",
+      "image": "https://media.istockphoto.com/id/814423752/photo/eye-of-model-with-colorful-art-make-up-close-up.webp?b=1&s=170667a&w=0&k=20&c=EGX6DZJON7-jDZi8kL67qrNtNGooCFVtPP_weO2gFq4=",
       "links": {
         "code": "",
         "video": "",
@@ -86,21 +75,10 @@
       }
     },
     {
-      "name": "Project FLUTTER",
-      "techstack": "Flutter, Dart, Firebase",
-      "category": "Flutter",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
-      "links": {
-        "code": "",
-        "video": "",
-        "visit": ""
-      }
-    },
-    {
-      "name": "Project LAMP",
-      "techstack": "PHP, MySQL, HTML5, CSS3, Bootstrap, JavaScript",
-      "category": "LAMP Stack",
-      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "name": "Green Screen Removal",
+      "techstack": "Green Screen",
+      "category": "Green Screen",
+      "image": "https://media.istockphoto.com/id/1136900682/photo/calm-and-angry-girl-double-color-exposure.webp?b=1&s=170667a&w=0&k=20&c=JzPcc4Lf_D5YU1HKxr9JGMJtpZzPNrxzl35egARzFtQ=",
       "links": {
         "code": "",
         "video": "",

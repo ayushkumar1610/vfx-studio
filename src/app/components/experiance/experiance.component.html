@@ -3,7 +3,7 @@
     <h2 class="text-4xl text-center">Experience</h2>
 
     <div class="w-fit mx-auto mt-6 p-2 bg-white dark:bg-grey-800 rounded-md flex gap-2 items-center">
-        <button *ngFor="let tab of ['Experience', 'Education']" class="py-2 px-4 rounded-md transition-colors"
+        <button *ngFor="let tab of ['Experience']" class="py-2 px-4 rounded-md transition-colors"
             [ngClass]="{
           'bg-violet-600 text-white': tab === show,
           'hover:bg-gray-100 dark:text-gray-200 text-black hover:dark:bg-grey-900': tab !== show
@@ -25,12 +25,12 @@
                             [desc]="item.desc" [duration]="item.duration" />
                     </div>
                 </div>
-                <div *ngIf="show === 'Education'">
+                <!-- <div *ngIf="show === 'Education'">
                     <div *ngFor="let item of  educations ; let i = index;">
                         <app-experiance-card [index]="i" [institute]="item.institute" [degree]="item.degree"
                             [desc]="item.desc" [duration]="item.duration" />
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <ng-template #showTwo>
@@ -40,17 +40,17 @@
                             [desc]="item.desc" [duration]="item.duration" />
                     </div>
                 </div>
-                <div *ngIf="show === 'Education'">
+                <!-- <div *ngIf="show === 'Education'">
                     <div *ngFor="let item of  educations | slice:0:2 ; let i = index;">
                         <app-experiance-card [index]="i" [institute]="item.institute" [degree]="item.degree"
                             [desc]="item.desc" [duration]="item.duration" />
                     </div>
-                </div>
+                </div> -->
             </ng-template>
         </div>
     </div>
 
-    <div *ngIf="(show === 'Experience' ? experiences : educations).length > 2">
+    <div>
         <div class="bg-white dark:bg-grey-900 w-4/5 mx-auto blur-xl z-20 -translate-y-14 h-16"></div>
         <div class="text-center -translate-y-24">
             <button (click)="viewAll = !viewAll"
